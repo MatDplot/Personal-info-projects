@@ -1,0 +1,6 @@
+#define GEO "Resultats/Positions/geom_"
+#define VIT "Resultats/Vitesses/vitesses_"
+#define ENE "Resultats/Energies/energies_"
+#define TEM "Resultats/Temperatures/Temperature.txt"
+#define GEONV "Resultats/NV/geom_NV_"
+#define TEMNV "Resultats/NV/Temperature_NV.txt"

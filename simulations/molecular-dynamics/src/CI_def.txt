@@ -1,0 +1,45 @@
+0.0103
+0.3405
+39.948
+100
+0.0208
+90
+1
+1.0 
+10.0
+1.0
+50
+100
+1000
+0.01
+NVE
+10
+600
+1
+0.1
+100
+3
+0
+ 
+epsilon (eV)
+sigma (nm)
+m (u)
+N
+rho : Nb de particules / Ang^3
+T (K)
+method 0, 1, 2 ou 3 (Euler, Verlet, Leapfrog, RK4)
+tpas en fs
+tfin en ps
+tthermal en ps
+savenSteps (save tout les n steps)
+nombre bins histogramme vitesses
+nombre bins histogramme RDF
+constante de couplage en ps
+Conservation NVE, NVT ou NV (pour augmentation puis diminution temperature)
+NV_T borne min (K)
+NV_T borne haute (K)
+NV_Tpas pas par temperature (K)
+NV_temps temps de dynamique par Temperature (ps)
+NV_plateau temps à la température max (ps)
+nombre de repetitions
+sauvegarde des positions (bool 0 ou 1)

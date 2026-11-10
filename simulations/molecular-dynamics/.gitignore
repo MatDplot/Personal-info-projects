@@ -1,0 +1,4 @@
+src/md
+src/*.o
+src/.depend
+src/Resultats/

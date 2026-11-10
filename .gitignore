@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+_style/
+particle-physics/gravitational-waves/data/
