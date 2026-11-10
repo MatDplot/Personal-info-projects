@@ -1,5 +1,5 @@
 # Projets-perso commands (bash and zsh), sourced by Setup's dotfiles/shell_common.sh; listed in COMMANDS.md, shown by Mhelp_site.
-PROJETS_REPO=${PROJETS_REPO:-$HOME/Code/Perso/Projets-perso}
+PROJETS_REPO=${PROJETS_REPO:-$HOME/Code/Perso/Personal-info-projects}
 
 # Each project's scripts from its own folder, one at a time (the pgf figures are heavy on RAM).
 # pmssm-sampling/generate.py needs SOFTSUSY and molecular-dynamics needs its C++ results: left out.
