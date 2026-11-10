@@ -44,4 +44,4 @@ theory at 8 energies (fails if off by more than 5 %), then writes the figures
 and the GIF.
 
 Method as in J. VanderPlas, *Quantum Python: Animating the Schrödinger
-Equation* (2012); the code here is written from scratch.
+Equation* (2012). The code here is written from scratch.

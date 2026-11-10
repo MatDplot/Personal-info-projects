@@ -57,7 +57,7 @@ python3 pmssm.py                                       # from the points.csv shi
 python3 generate.py 4000 /path/to/softsusy/.libs/softpoint.x   # to regenerate it (~25 min)
 ```
 
-`pmssm.py` needs numpy and matplotlib only and takes about 20 s; it fails if
+`pmssm.py` needs numpy and matplotlib only and takes about 20 s. It fails if
 the AUC is below 0.75, if the selected half is enriched by less than × 1.4, or
 if fewer than 90 % of the valid points have m_h between 90 and 150 GeV.
 `generate.py` needs a compiled [SOFTSUSY](https://softsusy.hepforge.org)
@@ -66,5 +66,5 @@ if fewer than 90 % of the valid points have m_h between 90 and 150 GeV.
 Rewritten from my M1 internship at IP2I Lyon, *Machine learning applied to the
 sampling of high-dimensional supersymmetric parameter spaces*. There, a
 TensorFlow network generated the points itself and was steered by SOFTSUSY's
-verdict; this version uses the simpler and more robust approach of a
+verdict. This version uses the simpler and more robust approach of a
 classifier that filters random proposals.

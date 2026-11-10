@@ -51,7 +51,7 @@ python3 hydrogen.py
 python3 orbitals.py
 ```
 
-Needs numpy, scipy and matplotlib. Takes a few seconds; fails if a level is off
+Needs numpy, scipy and matplotlib. Takes a few seconds. It fails if a level is off
 Bohr's formula by more than 5 × 10⁻⁴ (relative).
 
 Started from a first-year script computing Bohr's radii and energies by hand,

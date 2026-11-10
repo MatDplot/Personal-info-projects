@@ -42,7 +42,7 @@ inner planets over their first two years only.
 python3 solar_system.py
 ```
 
-Needs numpy and matplotlib. Takes about 10 s; fails if a period is off
+Needs numpy and matplotlib. Takes about 10 s. It fails if a period is off
 Kepler by more than 0.5 % or if the energy drifts by more than 10⁻⁵.
 
 Rewritten from earlier scripts of mine (orbits of the planets and of the

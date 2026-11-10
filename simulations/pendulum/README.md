@@ -39,7 +39,7 @@ the separatrix as it loses energy and spirals into θ = 0.
 python3 pendulum.py
 ```
 
-Needs numpy, scipy and matplotlib. Takes a few seconds; fails if a period is
+Needs numpy, scipy and matplotlib. Takes a few seconds. It fails if a period is
 off the exact formula by more than 10⁻⁶ (relative).
 
 Rewritten from my L2 Python course exercise (large angles, small angles and

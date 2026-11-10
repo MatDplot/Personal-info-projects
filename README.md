@@ -22,14 +22,14 @@ measurement, and the script fails if it drifts.
 |---|---|---|
 | [Tunnel effect](quantum/tunnel-effect) | Gaussian wave packet through a square barrier, split-step Fourier method | Exact transmission, within 4 % at 8 energies |
 | [Hydrogen atom](quantum/hydrogen-atom) | Radial Schrödinger equation with finite differences: levels, radial densities and the s, p, d orbitals | Bohr's E_n = −13.6 eV/n², exact Laguerre wave functions |
-| [H₂ molecule](quantum/h2-molecule) | LCAO orbitals and bond of H₂⁺; vibrational levels in a Morse potential | Known LCAO bond; exact Morse levels within 0.2 meV |
+| [H₂ molecule](quantum/h2-molecule) | LCAO orbitals and bond of H₂⁺, vibrational levels in a Morse potential | Known LCAO bond, exact Morse levels within 0.2 meV |
 
 ## Nuclear, particle and astroparticle physics
 
 | Project | What it does | Checked against |
 |---|---|---|
 | [Gamma attenuation](particle-physics/gamma-attenuation) | Attenuation of ¹³⁷Cs and ²²Na gammas in Al and Cu, measured in an L3 lab | NIST XCOM, within 6 % |
-| [Neutrino oscillations](particle-physics/neutrino-oscillations) | Three-flavour oscillations from the PMNS matrix; reactor spectrum for both mass orderings (L3 internship) | Unitarity, closed-form reactor survival, two-flavour limit |
+| [Neutrino oscillations](particle-physics/neutrino-oscillations) | Three-flavour oscillations from the PMNS matrix, reactor spectrum for both mass orderings (L3 internship) | Unitarity, closed-form reactor survival, two-flavour limit |
 | [pMSSM sampling](particle-physics/pmssm-sampling) | Neural network that predicts which supersymmetric parameter points SOFTSUSY accepts (M1 internship) | Held-out points: ROC AUC and gain over random sampling |
 | [GW150914](particle-physics/gravitational-waves) | Matched-filter search for the first black-hole merger in open LIGO data | Catalogue time, Hanford–Livingston delay, chirp mass |
 
@@ -41,7 +41,7 @@ measurement, and the script fails if it drifts.
 | [Solar system](simulations/solar-system) | Sun and eight planets as an N-body problem, velocity Verlet against Euler | Kepler's third law, energy conservation |
 | [Pendulum](simulations/pendulum) | Nonlinear pendulum: period against amplitude, phase portrait, damping | Exact period with the elliptic integral K, to 10⁻⁶ |
 | [Solenoid](simulations/solenoid) | Magnetic field of a finite solenoid from Biot–Savart, field lines | One loop on its axis, closed form for a finite solenoid |
-| [Molecular dynamics](simulations/molecular-dynamics) | Liquid argon with a Lennard-Jones potential, in C++ (M1 project); simulated annealing into a glass | Maxwell-Boltzmann speeds, energy conservation of 4 integrators |
+| [Molecular dynamics](simulations/molecular-dynamics) | Liquid argon with a Lennard-Jones potential, in C++ (M1 project), simulated annealing into a glass | Maxwell-Boltzmann speeds, energy conservation of 4 integrators |
 
 ## Programming
 

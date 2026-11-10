@@ -11,7 +11,7 @@ potential.
 The electron of H₂⁺ is written as a combination of the 1s orbitals of the two
 protons, σ_g,u = (φ_a ± φ_b)/√(2(1 ± S)), with overlap
 S(R) = e^(−R)(1 + R + R²/3). The bonding orbital σ_g piles charge between the
-nuclei; σ_u has a node there. Their energies have a closed form in R
+nuclei, while σ_u has a node there. Their energies have a closed form in R
 (Coulomb, exchange and overlap integrals of two 1s functions).
 
 | | R_e | D_e |

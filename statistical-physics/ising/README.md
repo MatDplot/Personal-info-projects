@@ -36,7 +36,7 @@ shift towards T_c as L grows.
 python3 ising.py
 ```
 
-Needs numpy and matplotlib. Takes about 50 s; fails if |m| is off Onsager by
+Needs numpy and matplotlib. Takes about 50 s. It fails if |m| is off Onsager by
 more than 0.02 below T = 2.1, or if χ peaks more than 0.15 away from T_c.
 
 Rewritten from my L3 statistical physics lab script, which

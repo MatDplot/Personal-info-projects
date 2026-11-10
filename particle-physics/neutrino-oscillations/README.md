@@ -16,9 +16,9 @@ P(α → β) = |Σᵢ U_βi U*_αi exp(−i mᵢ² L / 2E)|².
 The script builds U, computes the full 3 × 3 matrix of probabilities for any
 L/E (antineutrinos with U*), and checks it three ways:
 
-- unitarity: each row of probabilities sums to 1, to 10⁻¹²;
+- unitarity: each row of probabilities sums to 1, to 10⁻¹²,
 - the closed form of the electron antineutrino survival used by reactor
-  experiments, P_ee = 1 − cos⁴θ₁₃ sin²2θ₁₂ sin²Δ₂₁ − sin²2θ₁₃(cos²θ₁₂ sin²Δ₃₁ + sin²θ₁₂ sin²Δ₃₂), to 10⁻¹²;
+  experiments, P_ee = 1 − cos⁴θ₁₃ sin²2θ₁₂ sin²Δ₂₁ − sin²2θ₁₃(cos²θ₁₂ sin²Δ₃₁ + sin²θ₁₂ sin²Δ₃₂), to 10⁻¹²,
 - the two-flavour formula when θ₁₃ = 0.
 
 Parameters: PDG 2022 (sin²θ₁₂ = 0.307, sin²θ₁₃ = 0.0220, Δm²₂₁ = 7.53 × 10⁻⁵ eV²,

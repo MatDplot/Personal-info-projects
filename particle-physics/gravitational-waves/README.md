@@ -56,11 +56,11 @@ python3 gw150914.py
 ```
 
 Needs numpy, scipy and matplotlib, and an internet connection the first time.
-Takes about 10 s; fails if either detector misses the catalogue time by more
+Takes about 10 s. It fails if either detector misses the catalogue time by more
 than 50 ms, if the delay exceeds 11 ms, or if M_c lands outside 25–37 M_⊙.
 
 Started from my notebook for the GW Open Data Workshop challenge, which used
-PyCBC; this version needs no gravitational-wave library.
+PyCBC. This version needs no gravitational-wave library.
 
 Data: LIGO Scientific Collaboration and Virgo Collaboration, GWOSC
 (CC BY 4.0). B. P. Abbott et al., Phys. Rev. Lett. 116 (2016) 061102.

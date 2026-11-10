@@ -10,7 +10,7 @@ correlation).
 ## Physics and numerics
 
 - Lennard-Jones potential with the argon parameters ε = 0.0103 eV,
-  σ = 3.405 Å, m = 39.948 u; periodic boundaries with the minimum-image
+  σ = 3.405 Å, m = 39.948 u, periodic boundaries with the minimum-image
   convention. Atoms start on a cubic lattice with Maxwell-Boltzmann velocities.
 - Four integrators to choose from: Euler, velocity Verlet, leapfrog and
   Runge-Kutta 4.
@@ -30,7 +30,7 @@ correlation).
 
 Verlet and leapfrog are the same scheme written two ways, and give identical
 energies (dotted on solid). Both keep the total energy within 4 × 10⁻⁴ % over
-10 ps. Euler is about 130 times worse with the same step; it is the
+10 ps. Euler is about 130 times worse with the same step. It is the
 semi-implicit variant (new velocity first, then position), so its error stays
 bounded instead of growing. RK4 does as well as
 Verlet here, at four force evaluations per step instead of one.
@@ -67,7 +67,7 @@ make
 python3 ../plots/plot.py
 ```
 
-Needs g++ and make; the plots need numpy and matplotlib. A run takes about
+Needs g++ and make, and the plots need numpy and matplotlib. A run takes about
 30 s and writes its output in `src/Resultats/`. To compare integrators, change
 line 7 of `CI_def.txt` (0 Euler, 1 Verlet, 2 leapfrog, 3 RK4) and run again:
 each method writes its own energy file.
