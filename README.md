@@ -52,7 +52,8 @@ measurement, and the script fails if it drifts.
 ## Run
 
 Each folder has its own README. The Python scripts need numpy, scipy and
-matplotlib (Pillow for the GIF) and are run from their folder, for example
+matplotlib (Pillow for the GIF), listed in `requirements.txt`
+(`pip install -r requirements.txt` in a venv), and are run from their folder, for example
 
 ```
 cd statistical-physics/ising
@@ -63,3 +64,19 @@ Each script stops with an error if its result is off the reference by more
 than the tolerance given in its README. The figures shown here were made with
 the plotting style of my thesis, which is not part of the repository: without
 it the scripts fall back to matplotlib's default style.
+
+That style lives in `_style/` (git-ignored, private), loaded by `figstyle.py`
+when the folder is there. It sets the fonts (TeX Gyre Heros, Computer Modern),
+renders the text with lualatex through matplotlib's pgf backend and formats
+numbers and units with siunitx. Without it every script still runs and checks
+its result, but the figures do not come out identical to the ones committed
+here: other fonts, mathtext labels, framed legends.
+
+Two scripts need more than Python:
+
+- `particle-physics/gravitational-waves/gw150914.py` downloads the LIGO strain
+  from GWOSC (https://gwosc.org) on its first run, 2 × 1.3 MB into its
+  `data/` folder (git-ignored). It needs internet once, then works offline.
+- `particle-physics/pmssm-sampling/generate.py` needs SOFTSUSY (its README
+  says how), and `simulations/molecular-dynamics` needs its C++ results.
+  `projets_run` skips both.

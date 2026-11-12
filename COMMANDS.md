@@ -6,4 +6,4 @@ Fonctions de `shell/commands.sh` (bash et zsh), chargées par `dotfiles/shell_co
 | Commande | Ce qu'elle fait |
 | --- | --- |
 | `projets_run` | Lance chaque script dans son dossier, un à la fois : vérifications et figures (`projets_run statistical-physics/ising` pour un seul) |
-| `cv_projects` | Copie ensuite les figures dans le site CV (Site-perso) |
+| `cv_projects` | Copie ensuite les figures dans le site CV. Définie dans `~/Code/Site-web/Site-perso/shell/commands.sh`, pas ici |
