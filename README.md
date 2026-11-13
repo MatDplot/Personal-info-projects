@@ -80,3 +80,8 @@ Two scripts need more than Python:
 - `particle-physics/pmssm-sampling/generate.py` needs SOFTSUSY (its README
   says how), and `simulations/molecular-dynamics` needs its C++ results.
   `projets_run` skips both.
+
+`projets_run` runs every script, one at a time, and lists the ones that fail. It is a shell function of
+`shell/commands.sh` (see `COMMANDS.md`), loaded by the Setup repo's shell config; without Setup,
+`PROJETS_REPO=$PWD; . shell/commands.sh` from this folder defines it (the default path is
+`~/Code/Perso/Personal-info-projects`).
